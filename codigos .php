@@ -34,11 +34,11 @@ header("Refresh:0.1; url=PaginaUsuarioInserir.php");
 							
 		<input type="text"  name="Data" <!-- validaçao é um script externo, required = campo obrigatorio--> required  onblur="ValidaData(this)" > 
  
-		<input type="time" pattern="([1]?[0-9]|2[0-3]):[0-5][0-9]"  name="HoraEntrada" required
+		<input type="time" pattern="([1]?[0-9]|2[0-3]):[0-5][0-9]"  name="HoraEntrada" required>
 		 		
-		<input type="time" pattern="([1]?[0-9]|2[0-3]):[0-5][0-9]" name="HoraSaida" required  
+		<input type="time" pattern="([1]?[0-9]|2[0-3]):[0-5][0-9]" name="HoraSaida" required>  
 		 		
-		<input type="text" name="Justificativa"  required  
+		<input type="text" name="Justificativa"  required>
 		 
 		<br><br>
 		

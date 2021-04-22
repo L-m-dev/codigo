@@ -28,7 +28,7 @@ header("Refresh:0.1; url=PaginaUsuarioInserir.php");
 	?>
 	<!--;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-->
 
-<!-- no site principal html. 'name' é o q vai ser puxado pelo script acima no '$_POST[Data]' -->
+<!-- AGORA FAZER ISTO AQUI NO SITE PRINCIPAL.  obs: 'name' é o q vai ser puxado pelo script acima no '$_POST[Data]' -->
 
 <form name="f2" action="tabela.php" method="post">
 							
@@ -47,15 +47,15 @@ header("Refresh:0.1; url=PaginaUsuarioInserir.php");
 		 
 	</form>
 	
-	<!-- PUXAR E MOSTRAR TABELA: --> 
+<!-- PUXAR E MOSTRAR TABELA: --> 
 	
-	<table>
-<tr>
-<th>Data</th>
-<th>Hora </th>
-<th>Hora </th>
-<th>Justificativa</th>
-</tr>
+<table>
+	<tr>
+		<th>Data</th>
+		<th>Hora </th>
+		<th>Hora </th>
+	<th>Justificativa</th>
+	</tr>
 <?php  
 $user = 'root';
 $password = 'root';
